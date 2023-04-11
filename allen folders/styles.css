@@ -1,0 +1,120 @@
+#head1.scrolled
+{
+    background-color: black;
+    border-bottom: 2px solid rgb(21, 21, 21);
+    transition: .5s;
+   
+    
+}
+.wrappers:hover .video-clip{
+    opacity: 1;
+    z-index: -1;
+    height: 300px;  
+    position: fixed;
+    transition: opacity 1s ease-in-out;
+    overflow: visible;
+ 
+}
+.wrappers:hover img{
+transform: scale(1.2);
+transition: all 1s ease;
+}
+.wrappers{
+overflow: hidden;
+}
+
+.video-clip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0;
+}
+.video-clip-abc {
+    opacity: 1;
+    z-index: -2;
+    height: 300px;  
+    position: fixed;
+    transition: opacity 1s ease-in-out;
+    overflow: visible;
+}
+
+.wrappers:hover + .mara {
+opacity:1;
+z-index:5;
+transition: opacity 0.5s ease-in-out;
+font-size: 20px;
+color: aliceblue;
+
+
+
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    
+   
+}
+.wrappers{
+margin-top:px;
+background-image: url();
+padding: 0;
+color: aliceblue;
+
+}
+.mara{
+opacity: 0;
+position: absolute;
+/* transition: opacity 1s ease-in-out; */
+top: 200px;
+float: left;
+
+
+}
+.mara-abc{
+opacity: 1;
+position: absolute;
+transition: opacity 1s ease-in-out;
+top: 200px;
+float: left;
+z-index: -1;
+color: aliceblue;
+}
+
+.darkbg{
+background-image: url(bgblack-01.png);
+background-repeat: repeat;
+/* background-color: black; */
+}
+.marimar{
+font-size: medium;
+}
+body{
+background-color: black;
+}
+img{
+object-fit: cover;
+}
+.card-body{
+overflow: hidden;
+}
+.container-fluid{
+margin-top: 200px;
+}
+.marites{
+background-color: black;
+
+}
+h4{
+/* background-image: url(bgblack-01.png); */
+opacity: 1;
+color: aliceblue;
+}
+.row{
+/* background-color: aliceblue; */
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 0px;
+padding-bottom: 0;
+}
